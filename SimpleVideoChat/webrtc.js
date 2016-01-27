@@ -103,8 +103,8 @@ function createAndSendAnswer() {
       console.log(error);
     }
   );
-}
-;
+};
+
 function onIceCandidateHandler(evt) {
   if (!evt || !evt.candidate) return;
   wsc.send(JSON.stringify({"candidate": evt.candidate }));
