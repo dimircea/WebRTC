@@ -6,11 +6,15 @@
   </head>
   
   <body>
-    <video id="remoteVideo" autoplay style="width:300px;height:200px;"></video>
+    <!-- <video id="remoteVideo" autoplay style="width:300px;height:200px;"></video> -->
+    <div id="div-video"></div>
     <video id="localVideo" autoplay muted style="width:300px;height:200px;"></video>
-    <input id="videoCallButton" type="button" disabled value="Video Call"/>
-    <input id="endCallButton" type="button" disabled value="End Call"/>
-    <input id="connectButton" type="button" value="连接"/>
+    <input id="videoCallButton" type="button" disabled value="开启视频"/>
+    <input id="endCallButton" type="button" disabled value="退出房间"/>
+    <input id="connectButton" type="button" value="加入房间"/>
+    <input id="roomID" value="100"/>
+
+    <!-- <input id="agreeButton" type="button"  disabled value="同意"/> -->
     <script>window.addEventListener("load", pageReady);</script>
   </body>
 </html>
