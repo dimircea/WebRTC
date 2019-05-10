@@ -1,0 +1,1 @@
+../../../../GoogleWebRTC/Frameworks/frameworks/WebRTC.framework/Headers/RTCVideoCapturer.h
