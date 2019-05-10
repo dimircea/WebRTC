@@ -27,6 +27,7 @@
   "dependencies": {
     "express": "^4.14.0",
     "fs": "0.0.1-security",
+    "uuid": "^3.3.2",
     "ws": "^1.1.1"
   }
 }

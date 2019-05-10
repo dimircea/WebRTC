@@ -1,0 +1,2 @@
+# HGAlertViewController
+UIAlertViewController使用block点语法链式编程思想实现添加action和textField

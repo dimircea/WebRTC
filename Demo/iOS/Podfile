@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios,'9.0'
+
+target 'WebRTC_new' do
+    
+pod 'GoogleWebRTC','~> 1.1.20266'
+#pod 'GoogleWebRTC','~> '
+#    pod 'AppRTC', '~> 1.0.3'
+#pod 'Socket.IO-Client-Swift', '~> 13.3.0'
+pod 'ReactiveObjC'
+pod 'SocketRocket'
+pod 'HGAlertViewController', '~> 1.0.1'
+
+end
+

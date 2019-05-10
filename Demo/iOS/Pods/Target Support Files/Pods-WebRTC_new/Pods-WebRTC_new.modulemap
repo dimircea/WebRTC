@@ -1,0 +1,6 @@
+module Pods_WebRTC_new {
+  umbrella header "Pods-WebRTC_new-umbrella.h"
+
+  export *
+  module * { export * }
+}
